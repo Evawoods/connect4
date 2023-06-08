@@ -1,4 +1,22 @@
 /* game board table */
+body{
+ background-color: lightblue;
+}
+
+#title{
+text-align: center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: #b55bdf;
+margin: 10%;
+}
+
+#start-info{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15%;
+}
 
 #board td {
   width: 50px;
